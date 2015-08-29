@@ -428,3 +428,10 @@ th {
 body {
 	background-image: url("http://i.imgur.com/rFfInvm.jpg");
 }
+.topnav {
+	background-color: red;
+}
+.topnav .content {
+	text-align: center;
+	display: inline-block;
+}
