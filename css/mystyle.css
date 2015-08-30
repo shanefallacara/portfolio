@@ -429,9 +429,18 @@ body {
 	background-image: url("http://i.imgur.com/rFfInvm.jpg");
 }
 .topnav {
-	background-color: red;
+    border-style: thick solid;
+    border-color:green;
+    text-align: center;
+    float: right;
 }
-.topnav .content {
-	text-align: center;
-	display: inline-block;
+li {
+    display: inline-block;
+    padding: 2px 112px 2px 5px;
+    border-style: solid;
+    border-color: red;
+    height: 2em;
+    background-color: yellow;
+    margin-right: 3em
 }
+
