@@ -429,18 +429,34 @@ body {
 	background-image: url("http://i.imgur.com/rFfInvm.jpg");
 }
 .topnav {
-    border-style: thick solid;
-    border-color:green;
-    text-align: center;
-    float: right;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
 }
-li {
+.topnav > .content {
+  margin: 0 auto;
+  padding: 1em 8em;
+  margin-top: 25px;
+}
+.topnav .logo {
+  height: 10em;
+
+}
+.topnav .links >li {
     display: inline-block;
-    padding: 2px 112px 2px 5px;
+    padding: 18px 37px 1px 4px;
     border-style: solid;
     border-color: red;
     height: 2em;
     background-color: yellow;
-    margin-right: 3em
-}
+    margin-right: 1em;
+    margin-top: 3em;
+    float: right;
+  }
+  .topnav .links {
+    float:right;
+    margin-top: 50px;
+    padding-right: 15em;
+    list-style: none;
+  }
 
