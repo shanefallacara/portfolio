@@ -429,7 +429,6 @@ body {
 	background-image: url("http://i.imgur.com/rFfInvm.jpg");
 }
 .topnav {
-  position: fixed;
   width: 100%;
   z-index: 9999;
 }
@@ -439,7 +438,7 @@ body {
   margin-top: 25px;
 }
 .topnav .logo {
-  height: 10em;
+  height: 19em;
 
 }
 .topnav .links >li {
@@ -459,4 +458,19 @@ body {
     padding-right: 15em;
     list-style: none;
   }
-
+  .sidenav .sidelinks >li {
+    border-style: solid;
+    border-color: red;
+    height: 2em;
+    background-color: yellow;
+    width: 7em;
+    margin-bottom: 1em;
+    list-style:none;
+    margin-left: 6em;
+  }
+.sidenav .aboutquip {
+  margin: 2em 0em 2em 8em;
+  padding: 0em 0em 0em 0em;
+  background-color: white;
+  height: 19em;
+}
