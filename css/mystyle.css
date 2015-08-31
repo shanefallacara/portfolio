@@ -449,7 +449,7 @@ body {
     height: 2em;
     background-color: yellow;
     margin-right: 1em;
-    margin-top: 3em;
+    margin-top: -2em;
     float: right;
   }
   .topnav .links {
@@ -463,14 +463,38 @@ body {
     border-color: red;
     height: 2em;
     background-color: yellow;
-    width: 7em;
+    width: 18em;
     margin-bottom: 1em;
     list-style:none;
     margin-left: 6em;
+    padding-top: 1em;
+    padding-left: 1em;
   }
 .sidenav .aboutquip {
   margin: 2em 0em 2em 8em;
   padding: 0em 0em 0em 0em;
   background-color: white;
-  height: 19em;
+  height: 8em;
+  width:  17em;
+  padding: 1em;
+  text-align: center;
+  border-color: black;
+  border-style: solid;
+}
+.grid {
+    width: 44em;
+    height: 45em;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    margin-right: 16em;
+    float: right;
+    margin-top: -47em;
+}
+.example {
+  list-style:none;
+}
+.grid .exbox{
+  display: inline-block;
+  width: 3em;
 }
