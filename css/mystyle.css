@@ -493,8 +493,20 @@ body {
 }
 .example {
   list-style:none;
+
 }
-.grid .exbox{
+.grid .example >li{
   display: inline-block;
-  width: 3em;
+  width: 13em;
+  height: 13em;
+  margin-top: 1em;
+}
+
+.exbox {
+  border-style: solid;
+  border-color: black;
+}
+li img {
+  width: 208px;
+  height:208px;
 }
