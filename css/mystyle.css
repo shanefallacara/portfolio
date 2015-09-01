@@ -6,8 +6,8 @@
  *    user zoom.
  */
 
-html {
-  font-family: sans-serif; /* 1 */
+* {
+  font-family: 'PT Sans', sans-serif;
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -451,6 +451,7 @@ body {
     margin-right: 1em;
     margin-top: -2em;
     float: right;
+    position:relative;
   }
   .topnav .links {
     float:right;
@@ -472,7 +473,6 @@ body {
   }
 .sidenav .aboutquip {
   margin: 2em 0em 2em 8em;
-  padding: 0em 0em 0em 0em;
   background-color: white;
   height: 8em;
   width:  17em;
@@ -484,15 +484,13 @@ body {
 .grid {
     width: 44em;
     height: 45em;
-    background-color: white;
-    border-color: black;
-    border-style: solid;
-    margin-right: 16em;
+    margin-right: 14em;
     float: right;
-    margin-top: -47em;
+    margin-top: -49em;
 }
 .example {
   list-style:none;
+  padding: 0;
 
 }
 .grid .example >li{
@@ -500,6 +498,7 @@ body {
   width: 13em;
   height: 13em;
   margin-top: 1em;
+  margin-right: 1em;
 }
 
 .exbox {
@@ -509,4 +508,9 @@ body {
 li img {
   width: 208px;
   height:208px;
+}
+.grid .example >li:nth-child(3n){margin-right:0}
+
+.sidelinks {
+  padding: 0;
 }
